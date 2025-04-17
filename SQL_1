@@ -1,6 +1,6 @@
 Query 1:  Write a query Show first name, last name, and gender of patients whose gender is 'M'
 
 Sol:     SELECT first_name,last_name,gender FROM patients
-          where gender = 'M'
+          where gender = 'M';
 
 
