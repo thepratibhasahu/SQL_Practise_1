@@ -1,6 +1,6 @@
 Query 1: Show how many patients have a birth_date with 2010 as the birth year.
 
 Sol: SELECT count(*) AS total_patients FROM patients
-      where year(birth_date) = 2010
+      where year(birth_date) = 2010;
    
 
