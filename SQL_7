@@ -1,1 +1,7 @@
+Query 1: Show first name, last name, and the full province name of each patient.
+Example: 'Ontario' instead of 'ON
 
+Sol:  SELECT first_name,last_name,province_name FROM patients
+      join province_names
+      ON patients.province_id = province_names.province_id;
+  
